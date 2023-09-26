@@ -1,0 +1,2 @@
+script_key = getgenv().Triton.StartUP.Key;
+loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/0c3b5a0fbd1c04d5275b4156697b9630.lua"))()
