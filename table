@@ -1,9 +1,9 @@
 getgenv().Triton = {
     ['StartUP'] = {
-        Key = 'LuarmorKey', -- replace with luarmor key
-        UWP_Optimize = true,
-        UnlockFPS = true,
-        Intro = true
+        Key = 'keyhere', -- replace with luarmor key
+        UWP_Optimize = false,
+        UnlockFPS = false,
+        Intro = false
     },
     ['Panic'] = {
         Enabled = false,
@@ -15,7 +15,7 @@ getgenv().Triton = {
             HitChance = 300,
         },
         KeyBind = {
-            Enabled = true,
+            Enabled = false,
             KeyBind = 't',
             Notification = true,
         },
@@ -36,9 +36,9 @@ getgenv().Triton = {
             FirstPerson = true,
         },
         KeyBind = {
-            Hold = false,
+            Hold = true,
             Mode = 'KeyBind', -- or "Mouse"
-            KeyBind = 'q',
+            KeyBind = 'c',
             MouseBind = Enum.UserInputType.MouseButton2,
         },
         Prediction = {
@@ -64,7 +64,7 @@ getgenv().Triton = {
             NearestPoint = true,
             AirShot = true,
             Part = 'HumanoidRootPart',
-            AirPart = 'HumanoidRootPart',
+            AirPart = 'Head',
         },
         AutoUnLock = {
             Reloading = false,
@@ -73,14 +73,14 @@ getgenv().Triton = {
     },
     ['Fov'] = {
         CamLock = {
-            Show = true,
-            Use_Radius = true,
+            Show = false,
+            Use_Radius = false,
             Radius = 100,
             Model = 'Circle'
         },
         SilentAim = {
-            Show = true,
-            Use_Radius = true,
+            Show = false,
+            Use_Radius = false,
             Radius = 5,
             Model = 'Circle',
             StickFov = false,
@@ -98,7 +98,7 @@ getgenv().Triton = {
             NoGroundShots = true,
         },
         ['Gun_Fov'] = {
-            Enabled = false,
+            Enabled = true,
             DoubleBarrel = 22.5,
             Revolver = 27.5,
             Shotgun = 35,
@@ -119,8 +119,8 @@ getgenv().Triton = {
             KeyBind = Enum.KeyCode.P
         },
         ['Macro'] = {
-            Enabled = true,
-            Hold_Key = true,
+            Enabled = false,
+            Hold_Key = false,
             KeyBind = Enum.KeyCode.X,
             Mode = '1' -- 1 = ioio 2 = scroll
         },
@@ -146,8 +146,8 @@ getgenv().Triton = {
         },
         ['Memory'] = {
             Enable = true,
-            Start = 1271,
-            End = 1684,
+            Start = 1471,
+            End = 1484,
             Speed = 1,
         },
         ['Sorting'] = {
